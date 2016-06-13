@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4958470A30491327B9F386B5 /* Pods_SZWaterFallLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54208BC384804048F77A4764 /* Pods_SZWaterFallLayout.framework */; };
 		DCCC9E7F1D0E9CF400F0C390 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCC9E7E1D0E9CF400F0C390 /* main.m */; };
 		DCCC9E821D0E9CF400F0C390 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCC9E811D0E9CF400F0C390 /* AppDelegate.m */; };
 		DCCC9E851D0E9CF400F0C390 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCC9E841D0E9CF400F0C390 /* ViewController.m */; };
@@ -15,6 +16,14 @@
 		DCCC9E8D1D0E9CF400F0C390 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCCC9E8B1D0E9CF400F0C390 /* LaunchScreen.storyboard */; };
 		DCCC9E981D0E9CF400F0C390 /* SZWaterFallLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCC9E971D0E9CF400F0C390 /* SZWaterFallLayoutTests.m */; };
 		DCCC9EA31D0E9CF400F0C390 /* SZWaterFallLayoutUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCC9EA21D0E9CF400F0C390 /* SZWaterFallLayoutUITests.m */; };
+		DCCC9EB41D0EA02E00F0C390 /* 0.plist in Resources */ = {isa = PBXBuildFile; fileRef = DCCC9EB01D0EA02E00F0C390 /* 0.plist */; };
+		DCCC9EB51D0EA02E00F0C390 /* 1.plist in Resources */ = {isa = PBXBuildFile; fileRef = DCCC9EB11D0EA02E00F0C390 /* 1.plist */; };
+		DCCC9EB61D0EA02E00F0C390 /* 2.plist in Resources */ = {isa = PBXBuildFile; fileRef = DCCC9EB21D0EA02E00F0C390 /* 2.plist */; };
+		DCCC9EB71D0EA02E00F0C390 /* 3.plist in Resources */ = {isa = PBXBuildFile; fileRef = DCCC9EB31D0EA02E00F0C390 /* 3.plist */; };
+		DCCC9EBA1D0EA0D900F0C390 /* SZShop.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCC9EB91D0EA0D900F0C390 /* SZShop.m */; };
+		DCCC9EBE1D0EA13300F0C390 /* SZShopCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCC9EBC1D0EA13300F0C390 /* SZShopCell.m */; };
+		DCCC9EBF1D0EA13300F0C390 /* SZShopCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCCC9EBD1D0EA13300F0C390 /* SZShopCell.xib */; };
+		DCCC9EC21D0EA4A200F0C390 /* SZWaterFallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCC9EC11D0EA4A200F0C390 /* SZWaterFallLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		433C0F983F27F57F9E799C0D /* Pods-SZWaterFallLayout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SZWaterFallLayout.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SZWaterFallLayout/Pods-SZWaterFallLayout.debug.xcconfig"; sourceTree = "<group>"; };
+		54208BC384804048F77A4764 /* Pods_SZWaterFallLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SZWaterFallLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		99E9D5BE44ADAFBF0FF2D6CA /* Pods-SZWaterFallLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SZWaterFallLayout.release.xcconfig"; path = "Pods/Target Support Files/Pods-SZWaterFallLayout/Pods-SZWaterFallLayout.release.xcconfig"; sourceTree = "<group>"; };
 		DCCC9E7A1D0E9CF400F0C390 /* SZWaterFallLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SZWaterFallLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCCC9E7E1D0E9CF400F0C390 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DCCC9E801D0E9CF400F0C390 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +63,17 @@
 		DCCC9E9E1D0E9CF400F0C390 /* SZWaterFallLayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SZWaterFallLayoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCCC9EA21D0E9CF400F0C390 /* SZWaterFallLayoutUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZWaterFallLayoutUITests.m; sourceTree = "<group>"; };
 		DCCC9EA41D0E9CF400F0C390 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCCC9EB01D0EA02E00F0C390 /* 0.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = 0.plist; sourceTree = "<group>"; };
+		DCCC9EB11D0EA02E00F0C390 /* 1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = 1.plist; sourceTree = "<group>"; };
+		DCCC9EB21D0EA02E00F0C390 /* 2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = 2.plist; sourceTree = "<group>"; };
+		DCCC9EB31D0EA02E00F0C390 /* 3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = 3.plist; sourceTree = "<group>"; };
+		DCCC9EB81D0EA0D900F0C390 /* SZShop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZShop.h; sourceTree = "<group>"; };
+		DCCC9EB91D0EA0D900F0C390 /* SZShop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZShop.m; sourceTree = "<group>"; };
+		DCCC9EBB1D0EA13300F0C390 /* SZShopCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZShopCell.h; sourceTree = "<group>"; };
+		DCCC9EBC1D0EA13300F0C390 /* SZShopCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZShopCell.m; sourceTree = "<group>"; };
+		DCCC9EBD1D0EA13300F0C390 /* SZShopCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SZShopCell.xib; sourceTree = "<group>"; };
+		DCCC9EC01D0EA4A200F0C390 /* SZWaterFallLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZWaterFallLayout.h; sourceTree = "<group>"; };
+		DCCC9EC11D0EA4A200F0C390 /* SZWaterFallLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZWaterFallLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4958470A30491327B9F386B5 /* Pods_SZWaterFallLayout.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +102,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7F85751242C1F9EA9A2520EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54208BC384804048F77A4764 /* Pods_SZWaterFallLayout.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DCCC9E711D0E9CF400F0C390 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +117,8 @@
 				DCCC9E961D0E9CF400F0C390 /* SZWaterFallLayoutTests */,
 				DCCC9EA11D0E9CF400F0C390 /* SZWaterFallLayoutUITests */,
 				DCCC9E7B1D0E9CF400F0C390 /* Products */,
+				FF497427168C620E7EAD3E3D /* Pods */,
+				7F85751242C1F9EA9A2520EA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +139,13 @@
 				DCCC9E811D0E9CF400F0C390 /* AppDelegate.m */,
 				DCCC9E831D0E9CF400F0C390 /* ViewController.h */,
 				DCCC9E841D0E9CF400F0C390 /* ViewController.m */,
+				DCCC9EC01D0EA4A200F0C390 /* SZWaterFallLayout.h */,
+				DCCC9EC11D0EA4A200F0C390 /* SZWaterFallLayout.m */,
+				DCCC9EB81D0EA0D900F0C390 /* SZShop.h */,
+				DCCC9EB91D0EA0D900F0C390 /* SZShop.m */,
+				DCCC9EBB1D0EA13300F0C390 /* SZShopCell.h */,
+				DCCC9EBC1D0EA13300F0C390 /* SZShopCell.m */,
+				DCCC9EBD1D0EA13300F0C390 /* SZShopCell.xib */,
 				DCCC9E861D0E9CF400F0C390 /* Main.storyboard */,
 				DCCC9E891D0E9CF400F0C390 /* Assets.xcassets */,
 				DCCC9E8B1D0E9CF400F0C390 /* LaunchScreen.storyboard */,
@@ -117,6 +158,10 @@
 		DCCC9E7D1D0E9CF400F0C390 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DCCC9EB01D0EA02E00F0C390 /* 0.plist */,
+				DCCC9EB11D0EA02E00F0C390 /* 1.plist */,
+				DCCC9EB21D0EA02E00F0C390 /* 2.plist */,
+				DCCC9EB31D0EA02E00F0C390 /* 3.plist */,
 				DCCC9E7E1D0E9CF400F0C390 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -140,6 +185,15 @@
 			path = SZWaterFallLayoutUITests;
 			sourceTree = "<group>";
 		};
+		FF497427168C620E7EAD3E3D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				433C0F983F27F57F9E799C0D /* Pods-SZWaterFallLayout.debug.xcconfig */,
+				99E9D5BE44ADAFBF0FF2D6CA /* Pods-SZWaterFallLayout.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +201,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DCCC9EA71D0E9CF400F0C390 /* Build configuration list for PBXNativeTarget "SZWaterFallLayout" */;
 			buildPhases = (
+				5BCD78EBB99CC781A5885586 /* 📦 Check Pods Manifest.lock */,
 				DCCC9E761D0E9CF400F0C390 /* Sources */,
 				DCCC9E771D0E9CF400F0C390 /* Frameworks */,
 				DCCC9E781D0E9CF400F0C390 /* Resources */,
+				A04DAC0935D454DD161E5EFC /* 📦 Embed Pods Frameworks */,
+				716A8A3E95AB99529DB4C3B4 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -243,9 +300,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCCC9EB51D0EA02E00F0C390 /* 1.plist in Resources */,
 				DCCC9E8D1D0E9CF400F0C390 /* LaunchScreen.storyboard in Resources */,
+				DCCC9EB41D0EA02E00F0C390 /* 0.plist in Resources */,
+				DCCC9EB61D0EA02E00F0C390 /* 2.plist in Resources */,
 				DCCC9E8A1D0E9CF400F0C390 /* Assets.xcassets in Resources */,
 				DCCC9E881D0E9CF400F0C390 /* Main.storyboard in Resources */,
+				DCCC9EBF1D0EA13300F0C390 /* SZShopCell.xib in Resources */,
+				DCCC9EB71D0EA02E00F0C390 /* 3.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,13 +327,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5BCD78EBB99CC781A5885586 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		716A8A3E95AB99529DB4C3B4 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SZWaterFallLayout/Pods-SZWaterFallLayout-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A04DAC0935D454DD161E5EFC /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SZWaterFallLayout/Pods-SZWaterFallLayout-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DCCC9E761D0E9CF400F0C390 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCCC9EBE1D0EA13300F0C390 /* SZShopCell.m in Sources */,
+				DCCC9EC21D0EA4A200F0C390 /* SZWaterFallLayout.m in Sources */,
 				DCCC9E851D0E9CF400F0C390 /* ViewController.m in Sources */,
 				DCCC9E821D0E9CF400F0C390 /* AppDelegate.m in Sources */,
+				DCCC9EBA1D0EA0D900F0C390 /* SZShop.m in Sources */,
 				DCCC9E7F1D0E9CF400F0C390 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +524,7 @@
 		};
 		DCCC9EA81D0E9CF400F0C390 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 433C0F983F27F57F9E799C0D /* Pods-SZWaterFallLayout.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SZWaterFallLayout/Info.plist;
@@ -422,6 +536,7 @@
 		};
 		DCCC9EA91D0E9CF400F0C390 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99E9D5BE44ADAFBF0FF2D6CA /* Pods-SZWaterFallLayout.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SZWaterFallLayout/Info.plist;
@@ -496,6 +611,7 @@
 				DCCC9EA91D0E9CF400F0C390 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DCCC9EAA1D0E9CF400F0C390 /* Build configuration list for PBXNativeTarget "SZWaterFallLayoutTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +620,7 @@
 				DCCC9EAC1D0E9CF400F0C390 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DCCC9EAD1D0E9CF400F0C390 /* Build configuration list for PBXNativeTarget "SZWaterFallLayoutUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +629,7 @@
 				DCCC9EAF1D0E9CF400F0C390 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
